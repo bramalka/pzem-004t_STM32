@@ -31,4 +31,3 @@ void pzem_READ(PZEM *pzemhandle){
 		pzemhandle->pf = ((uint32_t)res_buf[19] << 8 | (uint32_t)res_buf[20]) / 100.0;
 		pzemhandle->alarms = ((uint32_t)res_buf[21] << 8 | (uint32_t)res_buf[22]);
 }
-
